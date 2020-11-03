@@ -1,0 +1,70 @@
+html {
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(8, 8, 8) !important;
+}
+
+.two {
+    font-size: 50px !important;
+}
+
+.white {
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+.collapse {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 30px !important;
+}
+
+body {
+    background-color: blue;
+}
+
+.image-center {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+
+
+
+/* mobile first application */
+@media screen and (min-width: 276px) {
+    .image-center {
+        width: 50%;
+    }
+    .btn2 {
+        margin: 10px !important;
+    }
+    
+    
+
+    
+}
+
+@media screen and (min-width: 768px) {
+    .image-center {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .image-center {
+        width: 15%;
+    }
+    
+}
+
+
+
