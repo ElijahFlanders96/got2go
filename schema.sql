@@ -1,0 +1,3 @@
+
+DROP DATABASE IF EXISTS got2go_db;
+CREATE DATABASE got2go_db;
