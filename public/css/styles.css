@@ -1,6 +1,4 @@
-html {
-    width: 100%;
-}
+
 
 .navbar {
     background-color: rgb(8, 8, 8) !important;
@@ -34,6 +32,11 @@ body {
     margin-right: auto;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+}
+
 
 
 
@@ -41,14 +44,12 @@ body {
 /* mobile first application */
 @media screen and (min-width: 276px) {
     .image-center {
-        width: 50%;
+        width: 30%;
     }
     .btn2 {
         margin: 10px !important;
     }
     
-    
-
     
 }
 
