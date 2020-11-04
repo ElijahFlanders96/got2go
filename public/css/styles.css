@@ -1,8 +1,13 @@
-
+/* navbar styling*/
 
 .navbar {
     background-color: rgb(8, 8, 8) !important;
 }
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-color: white !important;
+}
+
 
 .two {
     font-size: 50px !important;
@@ -22,6 +27,8 @@
     margin-left: 30px !important;
 }
 
+/*Styling within the body*/
+
 body {
     background-color: blue;
 }
@@ -37,6 +44,21 @@ h1 {
     color: white;
 }
 
+.card {
+    background-color: rgb(8, 8, 8) !important;
+    color: white !important;
+}
+
+label, .input-group-text {
+    background-color: rgb(78, 40, 12) !important;
+    color: white !important;
+}
+
+#button-addon2 {
+    background-color: rgb(22, 123, 255) !important;
+    color: white !important;
+}
+
 
 
 
@@ -49,23 +71,19 @@ h1 {
     .btn2 {
         margin: 10px !important;
     }
-    
-    
+    .card {
+        width: auto !important;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .image-center {
         width: 40%;
     }
-    
 }
 
 @media screen and (min-width: 992px) {
     .image-center {
         width: 15%;
-    }
-    
+    } 
 }
-
-
-
