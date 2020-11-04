@@ -44,6 +44,19 @@ h1 {
     color: white;
 }
 
+.two2{
+    font-size: 80px !important;
+}
+
+.white2 {
+    font-size: 60px !important;
+    font-weight: bold !important;
+}
+
+.brand {
+    padding-bottom: 20px;
+}
+
 .card {
     background-color: rgb(8, 8, 8) !important;
     color: white !important;
@@ -58,6 +71,8 @@ label, .input-group-text {
     background-color: rgb(22, 123, 255) !important;
     color: white !important;
 }
+
+
 
 
 
