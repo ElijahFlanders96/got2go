@@ -19,6 +19,8 @@ A user friendly application that allows the user to search for a specific public
 
 * [Links](#links)
 
+* [Contributors](#contributors)
+
 * [Questions](#questions)
 
 ## Installation
@@ -53,11 +55,17 @@ npm test
 * Repository - https://github.com/ElijahFlanders96/Project_2.git
 * Heroku Deployment - https://arcane-stream-61363.herokuapp.com/
 
+## Contributors
+* Casey Morgan
+* Elijah Flanders
+* Kylie Schmidt
+* Raymond Gordon
+
 ## Questions
 
 If you have any questions about the repo, open an issue or contact any of the following directly at:
 * caseyjeanmorgan@gmail.com. You can find more of my work at [cc22389](https://github.com/cc22389/)
-* [ElijahFlanders96](http://github.com/ElijahFlanders96/)
-* []
-* []
+* elijahflanders15@gmail.com. You can find more of my work at [ElijahFlanders96](http://github.com/ElijahFlanders96/)
+* kyliemegan24@gmail.com. You can find more of my work at [kyliemegan24](http://github.com/kyliemegan24/)
+* rjgordon26@gmail.com. You can find more of my work at [rjgordon26](http://github.com/rjgordon26/)
 
