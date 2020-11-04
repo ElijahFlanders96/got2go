@@ -58,7 +58,7 @@ $(document).ready(function () {
 
 
     document.getElementById("brNearMe").onclick = function () {
-        // location.href = "../public/brSearch.html";
+        location.href = "../public/brSearch.html";
 
 
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
