@@ -1,7 +1,14 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
 /* navbar styling*/
 
 .navbar {
     background-color: rgb(8, 8, 8) !important;
+    border-bottom: solid !important;
+    border-bottom-color: white !important;
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
@@ -60,6 +67,7 @@ h1 {
 .card {
     background-color: rgb(8, 8, 8) !important;
     color: white !important;
+    margin-bottom: 80px !important;
 }
 
 label, .input-group-text {
@@ -72,6 +80,15 @@ label, .input-group-text {
     color: white !important;
 }
 
+footer {
+    height: 40px;
+    background-color: rgb(8, 8, 8);
+    border-top: solid;
+    border-top-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 
 
