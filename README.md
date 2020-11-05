@@ -19,6 +19,8 @@ A user friendly application that allows the user to search for a specific public
 
 * [Links](#links)
 
+* [Screenshots](#screenshots)
+
 * [Contributors](#contributors)
 
 * [Questions](#questions)
@@ -52,20 +54,31 @@ npm test
 ```
 ## Links
 
-* Repository - https://github.com/ElijahFlanders96/Project_2.git
+* Github Repository - https://github.com/ElijahFlanders96/Project_2.git
 * Heroku Deployment - https://arcane-stream-61363.herokuapp.com/
 
+## Screenshots: Mobile-first view
+
+### Home page
+![HomePage](./public/assets/home.PNG)
+
+### Search page
+![SearchPage](./public/assets/search.PNG)
+
+### Review page
+![ReviewPage](./public/assets/review.PNG)
+
 ## Contributors
-* Casey Morgan
-* Elijah Flanders
-* Kylie Schmidt
-* Raymond Gordon
+* Casey Morgan - You can find more of my work at [cc22389](https://github.com/cc22389/)
+* Elijah Flanders - You can find more of my work at [ElijahFlanders96](http://github.com/ElijahFlanders96/)
+* Kylie Schmidt- You can find more of my work at [kyliemegan24](http://github.com/kyliemegan24/)
+* Raymond Gordon - You can find more of my work at [rjgordon26](http://github.com/rjgordon26/)
 
 ## Questions
 
 If you have any questions about the repo, open an issue or contact any of the following directly at:
-* caseyjeanmorgan@gmail.com. You can find more of my work at [cc22389](https://github.com/cc22389/)
-* elijahflanders15@gmail.com. You can find more of my work at [ElijahFlanders96](http://github.com/ElijahFlanders96/)
-* kyliemegan24@gmail.com. You can find more of my work at [kyliemegan24](http://github.com/kyliemegan24/)
-* rjgordon26@gmail.com. You can find more of my work at [rjgordon26](http://github.com/rjgordon26/)
+* caseyjeanmorgan@gmail.com. 
+* elijahflanders15@gmail.com. 
+* kyliemegan24@gmail.com. 
+* rjgordon26@gmail.com. 
 
