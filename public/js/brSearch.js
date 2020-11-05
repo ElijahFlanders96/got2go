@@ -1,24 +1,33 @@
-var onSuccess = function (position) {
-    console.log('Latitude: ' + position.coords.latitude + '\n' +
-        'Longitude: ' + position.coords.longitude + '\n' +
-        'Altitude: ' + position.coords.altitude + '\n' +
-        'Accuracy: ' + position.coords.accuracy + '\n' +
-        'Altitude Accuracy: ' + position.coords.altitudeAccuracy + '\n' +
-        'Heading: ' + position.coords.heading + '\n' +
-        'Speed: ' + position.coords.speed + '\n' +
-        'Timestamp: ' + position.timestamp + '\n');
-};
 
-// onError Callback receives a PositionError object
-//
-function onError(error) {
-    console.log('code: ' + error.code + '\n' +
-        'message: ' + error.message + '\n');
-}
+$(document).ready(function () {
+    $.ajax("/api/reviews/", {
+        type: "GET",
+        data: newReview
+    }).then(
+        $.get("/api/refiews", function(data) {
+            console.log(data);
+            if (data.length !==0) {
+                for (var i = 0; i <data.length; i++) {
+                    var row = $("<li>");
+                    row.addClass("chirp");
+                    row.append("<p>" + data[i].locName + "</p>");
+                    row.append("<p>" + data[i].typeBr + "</p>");
+                    row.append("<p>" + data[i].cleanliness + "</p>");
+                    row.append("<p>" + data[i].pay + "</p>");
+                    row.append("<p>" + data[i].location + "</p>");
+                    row.append("<p>" + data[i].amenities + "</p>");
+                    row.append("<p>" + data[i].comments + "</p>");
+                    $("#reviewedList").prepend(row);
+                }
+            }
+        })
+    )
+})
+// Send the PUT request.
 
-navigator.geolocation.getCurrentPosition(onSucccess, onError)
+// var node = document.createElement("LI");                 // Create a <li> node
+// var textnode = document.createTextNode();         // Create a text node
+// node.appendChild(textnode);                              // Append the text to <li>
+// document.getElementById("reviewedList").appendChild(node);     // Append <li> to <ul> with id="myList"
 
-var Map;
-var Infowindow;
-var Latitude = undefined;
-var Longitude = undefined;
+
