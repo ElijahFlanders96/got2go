@@ -25,15 +25,16 @@ module.exports = function(app) {
   // POST route for saving a new review
   app.post("/api/reviews", function(req, res) {
     console.log(req.body);
-    db.Post.create({
-      type: req.body.type,
-      Purchase_necessary: req.body.Purchase_necessary,
-      cleanliness: req.body.cleanliness,
-      location: req.body.location,
-      Accessibility: req.body.Accessibility,
-      Amenities: req.body.Amenities,
-      Comments: req.body.Comments,
-    })
+    db.Review.create(
+      req.body
+      // type: req.body.type,
+      // Purchase_necessary: req.body.Purchase_necessary,
+      // cleanliness: req.body.cleanliness,
+      // location: req.body.location,
+      // Accessibility: req.body.Accessibility,
+      // Amenities: req.body.Amenities,
+      // Comments: req.body.Comments,
+    )
       .then(function(dbPost) {
         res.json(dbPost);
       });
