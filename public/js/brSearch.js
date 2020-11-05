@@ -1,10 +1,12 @@
 
+let newReview;
+
 $(document).ready(function () {
     $.ajax("/api/reviews/", {
         type: "GET",
         data: newReview
     }).then(
-        $.get("/api/refiews", function(data) {
+        $.get("/api/reviews", function(data) {
             console.log(data);
             if (data.length !==0) {
                 for (var i = 0; i <data.length; i++) {
@@ -23,11 +25,4 @@ $(document).ready(function () {
         })
     )
 })
-// Send the PUT request.
-
-// var node = document.createElement("LI");                 // Create a <li> node
-// var textnode = document.createTextNode();         // Create a text node
-// node.appendChild(textnode);                              // Append the text to <li>
-// document.getElementById("reviewedList").appendChild(node);     // Append <li> to <ul> with id="myList"
-
 
