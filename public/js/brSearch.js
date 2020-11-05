@@ -131,3 +131,4 @@ function watchPlacesPosition() {
     (onPlacesWatchSuccess, onPlacesError, { enableHighAccuracy: true });
 }
 
+getPlacesLocation();
