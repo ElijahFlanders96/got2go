@@ -12,11 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgyFqoQN9yTK2_PpFtv5qgO3ynJdL9Bls&libraries=places"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>got2go! Search</title>
 </head>
 
-<body>
+<body onload="getPlacesLocation()">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div contenteditable="false"> <span class="white" style="color:white">got</span><span class="two"
                 style="color:blue">2</span><span class="white" style="color:white">go!</span></div>
