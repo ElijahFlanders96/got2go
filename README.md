@@ -3,7 +3,7 @@
 
 ## Description
 
-A user friendly application that allows the user to search for a specific public bathroom as well as bathrooms near them with ratings from previous users to go along with their search. The user will have the option to submit their own review of their experience as well. Enjoy! 
+A user friendly application that allows the user to submit a review of a public bathroom. 
 
 ## Table of Contents 
 
@@ -13,15 +13,15 @@ A user friendly application that allows the user to search for a specific public
 
 * [License](#license)
 
-* [Contributing](#contributing)
-
 * [Tests](#tests)
 
 * [Links](#links)
 
 * [Screenshots](#screenshots)
 
-* [Contributors](#contributors)
+* [Creators](#creators)
+
+* [Contributing](#contributing)
 
 * [Questions](#questions)
 
@@ -35,23 +35,20 @@ npm i
 
 ## Usage
 
-No dev or global dependencies are required
+* add
+* cordova
+* cordova-plugin-geolocation
+* express
+* mysql2
+* plugin
+* sequelize
 
 ## License
 
 This project is licensed under the Unlicense license.
-  
-## Contributing
 
+## Tests - N/A
 
-
-## Tests
-
-To run tests, run the following command:
-
-```
-npm test
-```
 ## Links
 
 * Github Repository - https://github.com/ElijahFlanders96/Project_2.git
@@ -60,19 +57,24 @@ npm test
 ## Screenshots: Mobile-first view
 
 ### Home page
-![HomePage](./public/assets/home.PNG)
+![Home Page](./public/assets/home.PNG)
 
-### Search page
-![SearchPage](./public/assets/search.PNG)
+### Reviewed bathrooms page
+![Reviewed Bathrooms Page](./public/assets/search.PNG)
 
-### Review page
-![ReviewPage](./public/assets/review.PNG)
+### Submit review page
+![Submit Review Page](./public/assets/review.PNG)
 
-## Contributors
+## Creators
 * Casey Morgan - You can find more of my work at [cc22389](https://github.com/cc22389/)
 * Elijah Flanders - You can find more of my work at [ElijahFlanders96](http://github.com/ElijahFlanders96/)
 * Kylie Schmidt- You can find more of my work at [kyliemegan24](http://github.com/kyliemegan24/)
 * Raymond Gordon - You can find more of my work at [rjgordon26](http://github.com/rjgordon26/)
+
+## Contributing
+* Gage Eide
+* Dan Mueller
+* Kieran Anthony
 
 ## Questions
 
