@@ -16,6 +16,8 @@ function onError(error) {
         'message: ' + error.message + '\n');
 }
 
+navigator.geolocation.getCurrentPosition(onSucccess, onError)
+
 var Map;
 var Infowindow;
 var Latitude = undefined;

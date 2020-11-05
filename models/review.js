@@ -24,7 +24,6 @@ module.exports = function(sequelize, DataTypes) {
           },
           location: {
             type: DataTypes.TEXT,
-            allowNull: false,
           },
           amenities: {
             type: DataTypes.TEXT,

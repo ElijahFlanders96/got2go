@@ -16,7 +16,7 @@
     <title>got2go! Submit Review</title>
 </head>
 
-<body>
+<body onload="navigator.geolocation.getCurrentPosition(onSuccess, onError)">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div contenteditable="false"> <span class="white" style="color:white">got</span><span class="two"
                 style="color:blue">2</span><span class="white" style="color:white">go!</span></div>
@@ -115,11 +115,7 @@
                             aria-describedby="inputGroup-sizing-default">
                     </div>
                     <div class="row justify-content-center">
-<<<<<<< HEAD
-                        <a href="#" class="btn btn-primary text-center" id="submit">Submit Review</a>
-=======
-                        <a href="./brSearch.html" class="btn btn-primary text-center">Submit Review</a>
->>>>>>> 8c923d69067ab7ec22e56e2fdd3196c67952f624
+                        <a href="./brSearch.html" id="submit" class="btn btn-primary text-center">Submit Review</a>
                     </div>
                 </div>
             </div>
