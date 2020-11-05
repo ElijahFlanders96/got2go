@@ -96,6 +96,10 @@ footer {
     font-size: x-large;
 }
 
+.rbTitle {
+    font-size: xx-large;
+}
+
 /* mobile first application */
 @media screen and (min-width: 276px) {
     .image-center {
