@@ -58,7 +58,7 @@ $(document).ready(function () {
 
 
     document.getElementById("brNearMe").onclick = function () {
-        location.href = "../public/brSearch.html";
+        window.location.replace("/brSearch");
 
 
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
@@ -66,7 +66,7 @@ $(document).ready(function () {
     };
 
     document.getElementById("submitReview").onclick = function () {
-        location.href = "../public/brReview.html";
+        window.location.replace("/brReview");
     };
 });
 

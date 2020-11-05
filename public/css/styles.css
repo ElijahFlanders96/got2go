@@ -90,6 +90,11 @@ footer {
     width: 100%;
 }
 
+.location {
+    font-weight: bold;
+    color: rgb(22, 123, 255);
+    font-size: x-large;
+}
 
 /* mobile first application */
 @media screen and (min-width: 276px) {
@@ -113,5 +118,5 @@ footer {
 @media screen and (min-width: 992px) {
     .image-center {
         width: 15%;
-    } 
+    }
 }

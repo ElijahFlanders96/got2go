@@ -44,7 +44,8 @@ $("#submit").on('click', function(event) {
       data: newReview
     }).then(() => {
         console.log("promise resolves")
-      location.reload();
+      window.location.replace("/brSearch");
     });
   });
+  // windows.location.replace = '/brReview.html';
 });
