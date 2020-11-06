@@ -60,7 +60,7 @@ This project is licensed under the Unlicense license.
 ![Home Page](./public/assets/home.PNG)
 
 ### Reviewed bathrooms page
-![Reviewed Bathrooms Page](./public/assets/search.PNG)
+![Reviewed Bathrooms Page](./public/assets/reviewed_bathrooms1.png)
 
 ### Submit review page
 ![Submit Review Page](./public/assets/review.PNG)
