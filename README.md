@@ -51,7 +51,7 @@ This project is licensed under the Unlicense license.
 
 ## Links
 
-* Github Repository - https://github.com/ElijahFlanders96/Project_2.git
+* Github Repository - https://github.com/ElijahFlanders96/got2go
 * Heroku Deployment - https://arcane-stream-61363.herokuapp.com/
 
 ## Screenshots: Mobile-first view
