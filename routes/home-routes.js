@@ -27,13 +27,6 @@ module.exports = function(app) {
     console.log(req.body);
     db.Review.create(
       req.body
-      // type: req.body.type,
-      // Purchase_necessary: req.body.Purchase_necessary,
-      // cleanliness: req.body.cleanliness,
-      // location: req.body.location,
-      // Accessibility: req.body.Accessibility,
-      // Amenities: req.body.Amenities,
-      // Comments: req.body.Comments,
     )
       .then(function(dbPost) {
         res.json(dbPost);
